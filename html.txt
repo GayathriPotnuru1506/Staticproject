@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="headersection">
+        <div id="navsection m-5">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand m-3" href="#" id="navitem">OPT Center</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active m-3" id="navitem" href="#">Students <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link m-3" id="navitem" href="#">Employers</a>
+                        <a class="nav-item nav-link m-3" id="navitem" href="#">It Trainings</a>
+                        <a class="nav-item nav-link m-3" id="navitem" href="#">Blog</a>
+                        <a class="nav-item nav-link m-3" id="navitem" href="#">Login/Register</a>
+                        <i class='fab fa-sistrix m-3' style='font-size:36px'></i>
+                        <button class="resumebutton mt-3">Post Your Resume</button>
+                    </div>
+                </div>
+            </nav>
+            <div class="headersection text-center mt-3">
+                <h1 class="heading">Explore Thousand Of Jobs</h1>
+                <h4 class="description mt-3 mb-3">More than 5000 vacancies for students,Graduates and Young Professionals
+                    <br>Work with talented people at the most affordable price
+                </h4>
+
+                <div class="form-card text-center">
+
+                    <input type="text" class="inputfield" placeholder="Keywords,Job Title">
+                    <input type="text" class="inputfield" placeholder="Location">
+                    <button class="findjobsbutton">Find Jobs</button>
+                </div>
+
+                <div>
+                    <input type="checkbox" class="m-3">Full Time
+                    <input type="checkbox" class="m-3">Part Time
+                    <input type="checkbox" class="m-3">Remote
+                    <input type="checkbox" class="m-3">Contract
+                    <input type="checkbox" class="m-3">Internship
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Servicesection  mt-3 ">
+        <h1 class="service-heading">Service Name</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h1 class="service-description">Future is More Brighter When you are more prepared!.</h1>
+                    <p class="detailed-description">Lorem Ipsum is simply dummy text of the printing and typosetting industry .Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has Lorem Ipsum has been the industry standared dummy</p>
+                    <button type="submit" class="button">See More</button>
+                </div>
+                <div class="col-4 register-card p-3">
+                    <i class="fa fa-check-circle-o mb-3 " style="font-size:48px;color:red"></i>
+                    <h1 class="cards-heading">Register Now</h1>
+                    <p class="detailed-description">Lorem Ipsum is simply dummy text of the printing and typosetting industry .Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has Lorem Ipsum has been the industry standared dummy</p>
+                </div>
+
+                <div class="col-4">
+                    <div class="cvbuilder-card">
+                        <i class="fa fa-file-text-o mb-3" style="font-size:48px;color:red"></i>
+                        <h1 class="cards-heading">CV Builder</h1>
+                        <p class="detailed-description">Lorem Ipsum is simply dummy text of the printing and typosetting industry .Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has Lorem Ipsum has been the industry standared dummy</p>
+                    </div>
+                    <div class="cvbuilder-card mt-3">
+                        <i class='fas fa-briefcase' style='font-size:48px;color:brown'></i>
+                        <h1 class="cards-heading">Are You an Employer?</h1>
+                        <p class="detailed-description">Lorem Ipsum is simply dummy text of the printing and typosetting industry .Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has Lorem Ipsum has been the industry standared dummy</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <h1 class="text-center mt-5 service-heading">Top International companies are looking for you</h1>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://www.logolynx.com/images/logolynx/36/36bf1666d2eb42344851d3eeb6ba5564.jpeg" class="w-100 icons1">
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.logolynx.com/images/logolynx/36/36bf1666d2eb42344851d3eeb6ba5564.jpeg" class="w-100 icons1">
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.logolynx.com/images/logolynx/36/36bf1666d2eb42344851d3eeb6ba5564.jpeg" class="w-100 icons1">
+
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.logolynx.com/images/logolynx/36/36bf1666d2eb42344851d3eeb6ba5564.jpeg" class="w-100 icons1">
+
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.logolynx.com/images/logolynx/36/36bf1666d2eb42344851d3eeb6ba5564.jpeg" class="w-100 icons1">
+                    </div>
+                    <div class="col-2">
+                        <img src="https://www.logolynx.com/images/logolynx/36/36bf1666d2eb42344851d3eeb6ba5564.jpeg" class="w-100 icons1">
+                    </div>
+                    <div class="col-12 company-card mt-3 p-3">
+
+                        <h1>CELINE</h1>
+                        <button type="submit" class="profile">View profile</button>
+                        <h5 class="mb-3">Industry:It-Software</h5>
+                        <h5 class="mb-3">Industry:It-Software</h5>
+                        <h5 class="mb-3">Industry:It-Software</h5>
+                        <h2 class="cards-heading">About Company</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typosetting industry .Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has Lorem Ipsum has been the industry standared dummy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headersection text-center mt-3 p-3">
+            <h1 class="service-heading mb-5 text-white">Vacancies for students,starters and young professionals</h1>
+            <div class="container m-5">
+                <div class="row">
+                    <div class="col-sm-md-xl-lg-2 m-5">
+                        <i class='fas fa-plus-square mb-3' style='font-size:48px;color:white'></i>
+
+                        <p>Hospitality</p>
+                    </div>
+                    <div class="col-sm-md-xl-lg-2 m-5">
+
+                        <i class='fas fa-business-time mb-3' style='font-size:48px;color:white'></i>
+                        <p>Retail</p>
+                    </div>
+                    <div class="col-sm-md-lg-xl-2 m-5">
+                        <i class='fas fa-chalkboard-teacher mb-3' style='font-size:48px;color:white'></i>
+                        <p>Teaching/Tutoring</p>
+                    </div>
+                    <div class="col-sm-md-lg-xl-2 m-5">
+                        <i class='fas fa-clinic-medical mb-3' style='font-size:48px;color:white'></i>
+                        <p>Home Care</p>
+                    </div>
+                    <div class="col-sm-md-lg-xl-2 m-5">
+                        <i class='fas fa-bullhorn mb-3' style='font-size:48px;color:white'></i>
+                        <p>Marketing</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="featuresection">
+            <h1 class="text-center service-heading mt-3">Featured Jobs</h1>
+
+            <div class="sections m-3">
+                <div class="row mt-3">
+                    <i class="fab fa-instagram m-3" style='font-size:52px;color:brown'></i>
+                    <div class="col">
+                        <h6>Digital Marketing Specialist</h6>
+                        <h5>Cognizant</h5>
+                    </div>
+                    <div class="col ">
+                        <h5>Location</h5>
+                        <h5>Remote</h5>
+                    </div>
+                    <div class="col">
+                        <h5>Level</h5>
+                        <h5>Junior</h5>
+                    </div>
+                    <div class="col">
+                        <h5>Department</h5>
+                        <h5>Marketing</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sections m-3">
+                <div class="row mt-3">
+                    <i class="fab fa-google m-3" style='font-size:52px;color:Red'></i>
+                    <div class="col">
+                        <h6>Sr.React Js Developer With Node Js</h6>
+                        <h5>Google Inc</h5>
+                    </div>
+                    <div class="col ">
+                        <h5>Location</h5>
+                        <h5>Hyderabad</h5>
+                    </div>
+                    <div class="col">
+                        <h5>Level</h5>
+                        <h5>Medium</h5>
+                    </div>
+                    <div class="col">
+                        <h5>Department</h5>
+                        <h5>It-Software</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sections m-3">
+                <div class="row mt-3">
+                    <i class="fab fa-linkedin m-3" style='font-size:52px;color:#193278'></i>
+                    <div class="col">
+                        <h6>WordPress Developer & Seo Optimisation</h6>
+                        <h5>Linked In</h5>
+                    </div>
+                    <div class="col ">
+                        <h5>Location</h5>
+                        <h5>Mumbai</h5>
+                    </div>
+                    <div class="col">
+                        <h5>Level</h5>
+                        <h5>Entry level</h5>
+                    </div>
+                    <div class="col">
+                        <h5>Department</h5>
+                        <h5>Marketing</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="sections m-3">
+                <div class="row mt-3">
+                    <i class="fab fa-youtube m-3" style='font-size:52px;color:red'></i>
+
+                    <div class="col">
+                        <h6>Content Wrighter</h6>
+                        <h5>Youtube</h5>
+                    </div>
+                    <div class="col ">
+                        <h5>Location</h5>
+                        <h5>Remote</h5>
+                    </div>
+                    <div class="col">
+                        <h5>Level</h5>
+                        <h5>Junior</h5>
+                    </div>
+                    <div class="col">
+                        <h5>Department</h5>
+                        <h5>Marketing</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sections m-3">
+                <div class="row mt-3">
+                    <i class="fab fa-whatsapp m-3" style='font-size:52px;color:green'></i>
+                    <div class="col">
+                        <h6>Digital Marketing Specialist</h6>
+                        <h5>Whatsapp</h5>
+                    </div>
+                    <div class="col ">
+                        <h5>Location</h5>
+                        <h5>Remote</h5>
+                    </div>
+                    <div class="col">
+                        <h5>Level</h5>
+                        <h5>Junior</h5>
+                    </div>
+                    <div class="col">
+                        <h5>Department</h5>
+                        <h5>Marketing</h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h4 class="view">View All</h4>
+        <div class="m-5 p-3">
+            <div class="row">
+                <div class="col-3 boxbrown m-3">
+                    <h4>Need an Employeer</h4>
+                </div>
+                <div class="col-3 boxgreen m-3">
+                    <h4>Carrer Tips</h4>
+                </div>
+                <div class="col-3 boxorange m-3">
+                    <h4>Find Right Opportunity</h4>
+                </div>
+            </div>
+        </div>
+        <div class="headersection p-5 text-center">
+            <h3>Upgrade Your Skills by Learning from Experts & Professionals</h3>
+            <p class="text-center">Polish your IT Skills and become a professional with OPT IT Training</p>
+            <div class="row">
+                <div class="col-3">
+                    <i class='fas fa-book-open icons mt-5'></i>
+                    <h5>780
+                        +Courses</h5>
+                </div>
+                <div class="col-3">
+
+                    <i class='fas fa-chalkboard-teacher mt-5 icons'></i>
+                    <h5>700 +Instructions</h5>
+                </div>
+                <div class="col-3">
+                    <i class='fas fa-graduation-cap mt-5 icons'></i>
+                    <h5>12000 Learners</h5>
+                </div>
+                <div class="col-3">
+                    <i class='fas fa-city mt-5 icons'></i>
+                    <h5>50+ US Cities</h5>
+                </div>
+
+            </div>
+
+            <button type="submit" class="contactbtn mt-3">Contact To Know More</button>
+
+        </div>
+        <div class="servicenamesection">
+            <h1 class="text-center mt-3">Service Name</h1>
+            <div class="m-5 p-3">
+                <div class="row">
+                    <div class="col-3 boxwhite m-3">
+                        <p>Looking For Place</p>
+                    </div>
+                    <div class="col-3 boxwhite m-3">
+                        <p>Looking For Place To Share</p>
+                    </div>
+                    <div class="col-3 boxwhite m-3">
+                        <p>Want To Rent a Place?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobilesection">
+            <div class="row">
+                <div class="col-6">
+                    <img src="https://www.91-img.com/gallery_images_uploads/e/d/ed5c062684de8f5ff3e0a83dc3faaf808698865b.JPG?tr=h-550,w-0,c-at_max" class="w-100" alt="mobile">
+                </div>
+                <div class="col-6">
+                    <h5 class="mb-3 mt-3">Download App</h5>
+                    <h6 class="mb-3">Lorem Ipsum App Heading</h6>
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem</p>
+                    <h5>Lorem Ipsum App Heading</h5>
+                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem</h6>
+                    <img src="https://miro.medium.com/max/816/1*sSR4mrpijxoQrD7HKu8nDw.png" class="w-50" alt="hii">
+                </div>
+            </div>
+            <div class="footersection">
+                <div class="row">
+                    <div class="col-sm-md-lg-xl-2 m-5">
+                        <h5>OPT CENTER</h5>
+                        <h5>Lorem Ipsum is simply dummy text <br>
+                            of the printing and typesetting industry</h5>
+                        <h5>Connected With us !</h5>
+                        <i class="fab fa-google m-1" id="footericons"></i>
+                        <i class="fab fa-facebook m-1" id="footericons"></i>
+                        <i class="fab fa-linkedin m-1" id="footericons"></i>
+                        <i class="fab fa-twitter m-1" id="footericons"></i>
+                    </div>
+                    <div class="col-xl-sm-md-lg-2 mt-5">
+
+                        <ul id="list">
+                            <h6>Features</h6>
+                            <li>Resume Blast</li>
+                            <li>CV Builder</li>
+                            <li>Interview Tips</li>
+                            <li>Salary & Taxes</li>
+                            <li>Employment Contracts</li>
+                            <li>Resume Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-sm-md-lg-2 mt-5">
+                        <ul id="list">
+                            <h6>Quick Links</h6>
+                            <li>Resume Blast</li>
+                            <li>CV Builder</li>
+                            <li>Interview Tips</li>
+                            <li>Salary & Taxes</li>
+                            <li>Employment Contracts</li>
+                            <li>Resume Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-sm-md-lg-2 mt-5">
+                        <ul id="list">
+                            <h6>It Trainings</h6>
+                            <li>It Courses</li>
+                            <li>Online Training</li>
+                            <li>Classroom Training</li>
+                            <li>Corporate Training</li>
+                            <li>Training With Placement</li>
+                            <li>Resume Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-sm-md-lg-2 mt-5">
+                        <ul id="list">
+                            <h6>Jobs</h6>
+                            <li>Part Time Jobs</li>
+                            <li>Full Time Jobs</li>
+                            <li>Contract Jobs</li>
+                            <li>Remote Jobs</li>
+                            <li>Internship</li>
+                            <li>Employment News</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-sm-md-lg-2 mt-5">
+                        <ul id="list">
+                            <h6>Accomodation</h6>
+                            <li>List My Home</li>
+                            <li>Find My Home</li>
+                            <li>Share My Home</li>
+                            <li>playing Guest</li>
+                            <li>Find A Place To Live</li>
+                            <li>Resume Marketing</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copy@Rights 2022 By OPT Center</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
